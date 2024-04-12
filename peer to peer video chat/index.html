@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer Chat</title>
+    <link rel="stylesheet" href="./styleIndex.css"/>
+    <script src="https://kit.fontawesome.com/6f77a9355c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div id="videos">
+        <video id="vp1" class="videoPlayer" autoplay playsinline></video>
+        <video id="vp2" class="videoPlayer" autoplay playsinline></video>
+    </div>
+
+    <div class="controls">
+        <div class="control_container" id="camera_btn">
+            <i class="fa-solid fa-video fa-2xl"></i>
+        </div>
+        <div class="control_container" id="mic_btn">
+            <i class="fa-solid fa-microphone fa-2xl"></i>
+        </div>
+
+        <a href="lobby.html">
+            <div class="control_container" id="leave_btn">
+                <i class="fa-solid fa-phone-slash fa-2xl"></i>
+            </div>
+        </a>    
+    </div>
+
+</body>
+<script src="./agora-rtm-sdk-1.5.1.js"></script>
+<script src="./index.js"></script>
+</html>
